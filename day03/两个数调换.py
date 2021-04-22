@@ -1,0 +1,9 @@
+A=56
+B=78
+print("A=56")
+print("B=78")
+C=A+B
+B=C-B
+A=C-A
+print("A=",A)
+print("B=",B)
