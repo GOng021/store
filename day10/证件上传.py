@@ -1,0 +1,8 @@
+add=input("请输入上传证件的位置：")
+b=input("请输入证件的名字：")
+f1=open(file=add,mode="rb")
+f2=open(file="E:\python1"+".jpg",mode="wb")
+c=f1.read()
+f2.write(c)
+f2.close()
+f1.close()
